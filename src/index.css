@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #608E8E;
+}
+
+.container {
+  /* margin-top: 4rem; */
+  height: 100vh;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container button {
+  cursor: pointer;
+  padding: 10px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.container button:hover {
+  background: transparent;
+  letter-spacing: .3px;
+  color: #fff;
+  font-weight: bold;
+}
+.container .joke {
+  /* color: #C5D0D3; */
+  margin: 0 15px 0 10px;
+  color: #fff;
+  font-size: 2.2rem;
+}
